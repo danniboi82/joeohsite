@@ -22,20 +22,20 @@ const FixedMenu = () => (
             </Menu.Item>
             <Menu.Menu position='right'>
                 <Menu.Item active>
-                    <Icon name='home' color='black' />
-                    <a href='#Home'>Home</a>
+                    <Icon name='home' style={{ position: 'relative', bottom: '2px' }} />
+                    <a href='#Home'>홈</a>
+                </Menu.Item>
+                <Menu.Item >
+                    <Icon name='tasks' size='small' />
+                    <a href='#About'>커리큘럼</a>
                 </Menu.Item>
                 <Menu.Item >
                     <Icon name='user outline' size='small' />
-                    <a href='#About'>About</a>
-                </Menu.Item>
-                <Menu.Item >
-                    <Icon name='code' size='small' />
-                    <a href='#Portfolio'>Portfolio</a>
+                    <a href='#Portfolio'>소계/이력</a>
                 </Menu.Item>
                 <Menu.Item >
                     <Icon name='mail outline' size='small' />
-                    <a href='#Contact'>Contact</a>
+                    <a href='#Contact'>연락/문의</a>
                 </Menu.Item>
             </Menu.Menu>
         </Container>
@@ -66,10 +66,10 @@ export default class Navbar extends Component {
                         textAlign='center'
                         vertical={true}
                         className='NavbarSeg'
-                        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${BG1})`, backgroundSize: '100% 100%', maxWidth: '100%',  }}
+                        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${BG1})`, backgroundSize: '100% 100%', maxWidth: '100%', }}
                     >
                         <Container >
-                            <Menu inverted pointing secondary size='large' borderless>
+                            <Menu inverted pointing borderless secondary size='large'>
                                 <Menu.Item>
                                     <h1>STUDYVILLE</h1>
                                 </Menu.Item>
