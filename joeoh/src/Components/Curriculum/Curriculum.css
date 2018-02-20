@@ -4,7 +4,7 @@
 
 
 .CurricImageGrid{
-    background-image: url('../../Images/sat_examsheet.jpg');
+
     height: 400px;
     max-height: 100%;
 }
@@ -38,4 +38,22 @@
 }
 
 
+.CurricOne{
+    background-image: url('../../Images/ivy_league.jpg');
+    background-size: 100% 100%;
+}
 
+.CurricTwo{
+    background-image: url('../../Images/isee_ssat.png');
+    background-size: 100% 100%;
+}
+
+.CurricThree{
+    background-image: url('../../Images/sat_answersheet.jpg');
+    background-size: 100% 100%;
+}
+
+.CurricFour{
+    background-image: url('../../Images/Education.jpg');
+    background-size: 100% 100%;
+}
