@@ -1,41 +1,41 @@
-.Intro{
+.Curriculum{
     margin: 20px auto;
 }
 
-.HomeDiv{
 
-}
-
-.ImageGrid{
-    background-color: white;
+.CurricImageGrid{
+    background-image: url('../../Images/sat_examsheet.jpg');
     height: 400px;
     max-height: 100%;
 }
 
-.ImgDiv{
+.CurricImgDiv{
     margin: 50% auto;
 }
 
-.TextGrid{
+.CurricTextGrid{
     background-color: #336e59;
     height: 400px;
     max-height: 100%;
     color: white;
 }
 
-.TextDiv{
+.CurricTextDiv{
     margin: 50% auto;
 }
 
-.TextGrid1{
-    background-color: white;
+.CurricTextGrid1{
+    background-image: url('../../Images/sat_examsheet.jpg');
     height: 400px;
     max-height: 100%;
 }
 
-.ImageGrid1{
+.CurricImageGrid1{
     background-color: #336e59;
     height: 400px;
     max-height: 100%;
     color: white;
 }
+
+
+

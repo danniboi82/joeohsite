@@ -9,6 +9,8 @@ import {
     List,
     Segment,
 } from 'semantic-ui-react';
+import Map from './GMap/GMap';
+//Google Maps api key : AIzaSyB4Gae_gW6rhT4AKAxkr13R-4uolR1kZD8
 
 
 const Intro = (props) => {
@@ -31,6 +33,10 @@ const Intro = (props) => {
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
+
+                <Container>
+                    <Map />
+                </Container>
             </Segment>
         </div>
     )

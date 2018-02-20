@@ -3,6 +3,9 @@
 # dependencies
 node_modules
 
+#Google API KEY 
+/AIzaSyB4Gae_gW6rhT4AKAxkr13R-4uolR1kZD8
+
 # testing
 /coverage
 

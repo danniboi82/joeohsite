@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import NavBar from './Components/NavBar/NavBar';
 import Home from './Components/Home/Home';
 import Curriculum from './Components/Curriculum/Curriculum';
-import Intro from './Components/Intro/Intro';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
 
@@ -13,7 +14,8 @@ class App extends Component {
         <NavBar />
         <Home/>
         <Curriculum />
-        <Intro />
+        <Contact />
+        <Footer />
       </div>
     );
   }
