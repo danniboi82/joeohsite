@@ -23,15 +23,15 @@ const FixedMenu = () => (
             <Menu.Menu position='right'>
                 <Menu.Item active>
                     <Icon name='home' style={{ position: 'relative', bottom: '2px' }} />
-                    <a href='#Home'>홈</a>
+                    <a href='#Top'>홈</a>
                 </Menu.Item>
                 <Menu.Item >
                     <Icon name='tasks' size='small' />
-                    <a href='#About'>커리큘럼</a>
+                    <a href='#Home'>커리큘럼</a>
                 </Menu.Item>
                 <Menu.Item >
                     <Icon name='user outline' size='small' />
-                    <a href='#Portfolio'>소계/이력</a>
+                    <a href='#Curriculum'>소계/이력</a>
                 </Menu.Item>
                 <Menu.Item >
                     <Icon name='mail outline' size='small' />
@@ -76,15 +76,15 @@ export default class Navbar extends Component {
                                 <Menu.Item position='right'>
                                     <Menu.Item active>
                                         <Icon name='home' style={{ position: 'relative', bottom: '2px' }} />
-                                        <a href='#Home'>홈</a>
+                                        <a href='#Top'>홈</a>
                                     </Menu.Item>
                                     <Menu.Item >
                                         <Icon name='tasks' size='small' />
-                                        <a href='#About'>커리큘럼</a>
+                                        <a href='#Home'>커리큘럼</a>
                                     </Menu.Item>
                                     <Menu.Item >
                                         <Icon name='user outline' size='small' />
-                                        <a href='#Portfolio'>소계/이력</a>
+                                        <a href='#Home2'>소계/이력</a>
                                     </Menu.Item>
                                     <Menu.Item >
                                         <Icon name='mail outline' size='small' />

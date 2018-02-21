@@ -2,12 +2,7 @@
     margin: 20px auto;
 }
 
-.HomeDiv{
-
-}
-
 .ImageGrid{
-    background-color: white;
     height: 400px;
     max-height: 100%;
 }
@@ -28,7 +23,6 @@
 }
 
 .TextGrid1{
-    background-color: white;
     height: 400px;
     max-height: 100%;
 }
@@ -38,4 +32,24 @@
     height: 400px;
     max-height: 100%;
     color: white;
+}
+
+.Pic1{
+    background-image: url('../../Images/classroom.jpg');
+    background-size: 100% 100%;
+}
+
+.Pic2{
+    background-image: url('../../Images/one-on-one.jpg');
+    background-size: 100% 100%;
+}
+
+.Pic3{
+    background-image: url('../../Images/learn.svg');
+    background-size: 100% 100%;
+}
+
+.Pic4{
+    background-image: url('../../Images/books.jpg');
+    background-size: 100% 100%;
 }
