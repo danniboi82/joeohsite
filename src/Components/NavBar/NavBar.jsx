@@ -13,34 +13,7 @@ import FontAwesome from 'react-fontawesome';
 import './NavBar.css';
 import BG1 from '../../Images/background3.jpg';
 import { Link } from 'react-router-dom';
-
-const FixedMenu = () => (
-    <Menu fixed='top' size='large' borderless={true}>
-        <Container>
-            <Menu.Item>
-                <h1>STUDYVILLE</h1>
-            </Menu.Item>
-            <Menu.Menu position='right'>
-                <Menu.Item active>
-                    <Icon name='home' style={{ position: 'relative', bottom: '2px' }} />
-                    <a href='#Top'>홈</a>
-                </Menu.Item>
-                <Menu.Item >
-                    <Icon name='tasks' size='small' />
-                    <a href='#Home'>커리큘럼</a>
-                </Menu.Item>
-                <Menu.Item >
-                    <Icon name='user outline' size='small' />
-                    <a href='#Curriculum'>소계/이력</a>
-                </Menu.Item>
-                <Menu.Item >
-                    <Icon name='mail outline' size='small' />
-                    <a href='#Contact'>연락/문의</a>
-                </Menu.Item>
-            </Menu.Menu>
-        </Container>
-    </Menu>
-)
+import FixedMenu from './FixedNavBar/FixedNavBar';
 
 export default class Navbar extends Component {
     state = {}
@@ -69,7 +42,7 @@ export default class Navbar extends Component {
                         style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${BG1})`, backgroundSize: '100% 100%', maxWidth: '100%', backgroundAttachment: 'fixed' }}
                     >
                         <Container >
-                            <Menu inverted pointing borderless secondary size='large'>
+                            <Menu className='NavbarDiv' inverted pointing borderless secondary size='large'>
                                 <Menu.Item>
                                     <h1>STUDYVILLE</h1>
                                 </Menu.Item>
@@ -80,15 +53,15 @@ export default class Navbar extends Component {
                                     </Menu.Item>
                                     <Menu.Item >
                                         <Icon name='tasks' size='small' />
-                                        <a href='#Home'>커리큘럼</a>
+                                        <a href='#About'>StudyVille?</a>
                                     </Menu.Item>
                                     <Menu.Item >
                                         <Icon name='user outline' size='small' />
-                                        <a href='#Home2'>소계/이력</a>
+                                        <a href='#Curriculum'>커리큘럼</a>
                                     </Menu.Item>
                                     <Menu.Item >
                                         <Icon name='mail outline' size='small' />
-                                        <a href='#Contact'>연락/문의</a>
+                                        <a href='#Contact'>소계/이력/연락</a>
                                     </Menu.Item>
                                 </Menu.Item>
                             </Menu>

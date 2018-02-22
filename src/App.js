@@ -16,10 +16,10 @@ class App extends Component {
         <ScrollableAnchor id='Top'>
             <Navbar />
         </ScrollableAnchor>
-        <ScrollableAnchor id='Home'>
+        <ScrollableAnchor id='About'>
             <Home />
         </ScrollableAnchor>
-        <ScrollableAnchor id='Home2'>
+        <ScrollableAnchor id='Curriculum'>
             <Curriculum />
         </ScrollableAnchor>
         <ScrollableAnchor id='Contact'>
