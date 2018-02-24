@@ -25,7 +25,7 @@ export default class HomepageLayout extends Component {
             <div className='HomeDiv'>
                 <Segment style={{ padding: '8em 0em' }} vertical>
                     <h1>STUDYVILLE 장점 왜 엄마들이 선택을 해야하는지</h1>
-                    <Grid container stackable verticalAlign='middle'>
+                    <Grid container>
                         <Grid.Row className='Intro'>
                             <Grid.Column width={4} className='ImageGrid Pic1'>
                                 <div className="ImgDiv">                                  

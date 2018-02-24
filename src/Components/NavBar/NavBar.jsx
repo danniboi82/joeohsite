@@ -20,13 +20,15 @@ export default class Navbar extends Component {
 
     hideFixedMenu = () => this.setState({ visible: false })
     showFixedMenu = () => this.setState({ visible: true })
+    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
     render() {
         const { visible } = this.state
+        const { activeItem } = this.state
 
         return (
             <div>
-                {visible ? <FixedMenu /> : null}
+                {visible ? <FixedMenu activeItem={activeItem} clicked={this.handleItemClick} /> : null}
 
                 <Visibility
                     onBottomPassed={this.showFixedMenu}
@@ -47,19 +49,31 @@ export default class Navbar extends Component {
                                     <h1>STUDYVILLE</h1>
                                 </Menu.Item>
                                 <Menu.Item position='right'>
-                                    <Menu.Item active>
+                                    <Menu.Item 
+                                    name='top' 
+                                    active={activeItem === 'top'}
+                                    onClick={this.handleItemClick}>
                                         <Icon name='home' style={{ position: 'relative', bottom: '2px' }} />
                                         <a href='#Top'>홈</a>
                                     </Menu.Item>
-                                    <Menu.Item >
+                                    <Menu.Item
+                                    name='about' 
+                                    active={activeItem === 'about'}
+                                    onClick={this.handleItemClick} >
                                         <Icon name='tasks' size='small' />
                                         <a href='#About'>StudyVille?</a>
                                     </Menu.Item>
-                                    <Menu.Item >
+                                    <Menu.Item
+                                    name='curriculum' 
+                                    active={activeItem === 'curriculum'}
+                                    onClick={this.handleItemClick}>
                                         <Icon name='user outline' size='small' />
                                         <a href='#Curriculum'>커리큘럼</a>
                                     </Menu.Item>
-                                    <Menu.Item >
+                                    <Menu.Item
+                                    name='contact' 
+                                    active={activeItem === 'contact'}
+                                    onClick={this.handleItemClick} >
                                         <Icon name='mail outline' size='small' />
                                         <a href='#Contact'>소계/이력/연락</a>
                                     </Menu.Item>

@@ -17,21 +17,36 @@ const FixedNavBar = (props) => (
                 <h1>STUDYVILLE</h1>
             </Menu.Item>
             <Menu.Menu position='right'>
-                <Menu.Item active>
+                <Menu.Item 
+                    name='top'
+                    active={props.activeItem === 'home'}
+                    onClick={props.clicked}
+                    >
                     <Icon name='home' style={{ position: 'relative', bottom: '2px' }} />
-                    <a href='#Top'>홈</a>
+                    <a href='#Top'  style={{color: 'black'}}>홈</a>
                 </Menu.Item>
-                <Menu.Item >
+                <Menu.Item 
+                    name='about'
+                    active={props.activeItem === 'about'}
+                    onClick={props.clicked}
+                    >
                     <Icon name='tasks' size='small' />
-                    <a href='#About'>StudyVille?</a>
+                    <a href='#About'  style={{color: 'black'}}>StudyVille?</a>
                 </Menu.Item>
-                <Menu.Item >
+                <Menu.Item 
+                    name='curriculum'
+                    active={props.activeItem === 'curriculum'}
+                    onClick={props.clicked}
+                >
                     <Icon name='user outline' size='small' />
-                    <a href='#Curriculum'>커리큘럼</a>
+                    <a href='#Curriculum' style={{color: 'black'}}>커리큘럼</a>
                 </Menu.Item>
-                <Menu.Item >
+                <Menu.Item 
+                    name='contact'
+                    active={props.activeItem === 'contact'}
+                    onClick={props.clicked}>
                     <Icon name='mail outline' size='small' />
-                    <a href='#Contact'>소계/이력/연락</a>
+                    <a href='#Contact' style={{color: 'black'}}>소계/이력/연락</a>
                 </Menu.Item>
             </Menu.Menu>
         </Container>
