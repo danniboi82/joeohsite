@@ -67,7 +67,7 @@ export default class Navbar extends Component {
                                     name='curriculum' 
                                     active={activeItem === 'curriculum'}
                                     onClick={this.handleItemClick}>
-                                        <Icon name='tasks' size='small' />
+                                        <Icon name='book' size='small' />
                                         <a href='#Curriculum'>커리큘럼</a>
                                     </Menu.Item>
                                     <Menu.Item

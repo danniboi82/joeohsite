@@ -38,7 +38,7 @@ const FixedNavBar = (props) => (
                     active={props.activeItem === 'curriculum'}
                     onClick={props.clicked}
                 >
-                    <Icon name='tasks' size='small' />
+                    <Icon name='book' size='small' />
                     <a href='#Curriculum' style={{color: 'black'}}>커리큘럼</a>
                 </Menu.Item>
                 <Menu.Item 

@@ -23,7 +23,7 @@ export default class HomepageLayout extends Component {
 
         return (
             <div className='HomeDiv'>
-                <Segment style={{ padding: '8em 0em' }} vertical>
+                <Segment style={{ padding: '8em 0em', maxWidth: '100%'}} vertical>
                     <h1>STUDYVILLE 장점 왜 엄마들이 선택을 해야하는지</h1>
                     <Grid container>
                         <Grid.Row className='Intro'>
