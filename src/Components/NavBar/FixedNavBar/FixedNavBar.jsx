@@ -30,7 +30,7 @@ const FixedNavBar = (props) => (
                     active={props.activeItem === 'about'}
                     onClick={props.clicked}
                     >
-                    <Icon name='tasks' size='small' />
+                    <Icon name='info circle' size='small' />
                     <a href='#About'  style={{color: 'black'}}>StudyVille?</a>
                 </Menu.Item>
                 <Menu.Item 
@@ -38,14 +38,14 @@ const FixedNavBar = (props) => (
                     active={props.activeItem === 'curriculum'}
                     onClick={props.clicked}
                 >
-                    <Icon name='user outline' size='small' />
+                    <Icon name='tasks' size='small' />
                     <a href='#Curriculum' style={{color: 'black'}}>커리큘럼</a>
                 </Menu.Item>
                 <Menu.Item 
                     name='contact'
                     active={props.activeItem === 'contact'}
                     onClick={props.clicked}>
-                    <Icon name='mail outline' size='small' />
+                    <Icon name='user outline' size='small' />
                     <a href='#Contact' style={{color: 'black'}}>소계/이력/연락</a>
                 </Menu.Item>
             </Menu.Menu>

@@ -60,21 +60,21 @@ export default class Navbar extends Component {
                                     name='about' 
                                     active={activeItem === 'about'}
                                     onClick={this.handleItemClick} >
-                                        <Icon name='tasks' size='small' />
+                                        <Icon name='info circle' size='small' />
                                         <a href='#About'>StudyVille?</a>
                                     </Menu.Item>
                                     <Menu.Item
                                     name='curriculum' 
                                     active={activeItem === 'curriculum'}
                                     onClick={this.handleItemClick}>
-                                        <Icon name='user outline' size='small' />
+                                        <Icon name='tasks' size='small' />
                                         <a href='#Curriculum'>커리큘럼</a>
                                     </Menu.Item>
                                     <Menu.Item
                                     name='contact' 
                                     active={activeItem === 'contact'}
                                     onClick={this.handleItemClick} >
-                                        <Icon name='mail outline' size='small' />
+                                        <Icon name='user outline' size='small' />
                                         <a href='#Contact'>소계/이력/연락</a>
                                     </Menu.Item>
                                 </Menu.Item>
