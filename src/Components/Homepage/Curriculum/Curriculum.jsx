@@ -13,8 +13,8 @@ import EngMod from './CurricModals/EnglishModal';
 import ConsultMod from './CurricModals/ConsultingModal';
 import IntlSchool from './CurricModals/IntlSchoolModal';
 import ColPrep from './CurricModals/CollegePrepModal';
-import Sat from '../../Images/sat.png';
-import Tutor from '../../Images/one-on-one.jpg';
+import Sat from '../../../Images/sat.png';
+import Tutor from '../../../Images/one-on-one.jpg';
 import './Curriculum.css';
 
 

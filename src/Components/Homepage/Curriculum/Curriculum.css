@@ -1,55 +1,56 @@
-.Intro{
+.Curriculum{
     margin: 20px auto;
 }
 
-.ImageGrid{
+.CurricImageGrid{
     height: 400px;
     max-height: 100%;
 }
 
-.ImgDiv{
+.CurricImgDiv{
     margin: 50% auto;
 }
 
-.TextGrid{
+.CurricTextGrid{
     background-color: #336e59;
     height: 400px;
     max-height: 100%;
     color: white;
 }
 
-.TextDiv{
+.CurricTextDiv{
     margin: 50% auto;
 }
 
-.TextGrid1{
+.CurricTextGrid1{
     height: 400px;
     max-height: 100%;
 }
 
-.ImageGrid1{
+.CurricImageGrid1{
     background-color: #336e59;
     height: 400px;
     max-height: 100%;
     color: white;
 }
 
-.Pic1{
-    background-image: url('../../Images/classroom.jpg');
+
+.CurricOne{
+    background-image: url('../../../Images/ivy_league.jpg');
     background-size: 100% 100%;
 }
 
-.Pic2{
-    background-image: url('../../Images/one-on-one.jpg');
+.CurricTwo{
+    background-image: url('../../../Images/isee_ssat.png');
     background-size: 100% 100%;
 }
 
-.Pic3{
-    background-image: url('../../Images/learn.svg');
+.CurricThree{
+    background-image: url('../../../Images/sat_answersheet.jpg');
     background-size: 100% 100%;
 }
 
-.Pic4{
-    background-image: url('../../Images/books.jpg');
+.CurricFour{
+    background-image: url('../../../Images/Education.jpg');
     background-size: 100% 100%;
 }
