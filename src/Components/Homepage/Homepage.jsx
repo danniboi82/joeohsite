@@ -20,6 +20,8 @@ import Home from './Home/Home';
 import Curriculumn from './Curriculum/Curriculum';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import ScrollableAnchor from 'react-scrollable-anchor';
+
 
 /* eslint-disable react/no-multi-comp */
 /* Heads up! HomepageHeading uses inline styling, however it's not the best practice. Use CSS or styled components for
@@ -37,10 +39,16 @@ import Footer from './Footer/Footer';
 
 const Homepage = () => (
   <ResponsiveContainer>
-    <Home/>
-    <Curriculumn/>
-    <Contact/>
-    <Footer/>
+    <ScrollableAnchor id='About'>
+      <Home />
+    </ScrollableAnchor>
+    <ScrollableAnchor id='Curriculum'>
+      <Curriculumn />
+    </ScrollableAnchor>
+    <ScrollableAnchor id='Contact'>
+      <Contact />
+    </ScrollableAnchor>
+      <Footer />
   </ResponsiveContainer>
 )
 

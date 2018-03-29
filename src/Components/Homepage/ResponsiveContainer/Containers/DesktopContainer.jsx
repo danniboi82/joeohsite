@@ -23,6 +23,8 @@ class DesktopContainer extends Component {
 
   hideFixedMenu = () => this.setState({ fixed: false })
   showFixedMenu = () => this.setState({ fixed: true })
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
 
   render() {
     const { children } = this.props

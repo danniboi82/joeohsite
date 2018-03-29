@@ -29,6 +29,8 @@ class MobileContainer extends Component {
 
   handleToggle = () => this.setState({ sidebarOpened: !this.state.sidebarOpened })
 
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
   render() {
     const { children } = this.props
     const { sidebarOpened } = this.state
