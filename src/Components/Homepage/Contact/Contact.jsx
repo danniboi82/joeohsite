@@ -10,8 +10,8 @@ import {
     Segment,
 } from 'semantic-ui-react';
 import Map from './GMap/GMap';
-import Kaist from '../../Images/kaist.jpg';
-import Ucsc from '../../Images/Ucsc.png';
+import Kaist from '../../../Images/kaist.jpg';
+import Ucsc from '../../../Images/Ucsc.png';
 
 //Google Maps api key : AIzaSyB4Gae_gW6rhT4AKAxkr13R-4uolR1kZD8
 

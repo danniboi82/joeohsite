@@ -10,7 +10,7 @@ import {
     Segment,
 } from 'semantic-ui-react';
 import './Footer.css';
-import Sat from '../../Images/sat.png';
+import Sat from '../../../Images/sat.png';
 
 const Footer = (props) => {
     return (
