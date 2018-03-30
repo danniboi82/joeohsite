@@ -23,47 +23,47 @@ export default class HomepageLayout extends Component {
 
         return (
             <div className='HomeDiv'>
-                <Segment style={{ padding: '8em 0em', maxWidth: '100%'}} vertical>
+                <Segment style={{ padding: '8em 0em', maxWidth: '100%' }} vertical>
                     <h1>STUDYVILLE 장점 왜 엄마들이 선택을 해야하는지</h1>
                     <Grid container>
                         <Grid.Row className='Intro'>
-                            <Grid.Column width={4} className='ImageGrid Pic1'>
-                                <div className="ImgDiv">                                  
-                                </div>
-                            </Grid.Column>
-                            <Grid.Column width={4} className='TextGrid'>
-                                <div className='TextDiv'>
-                                    <p> 미국 대학입학 희망하는 학생들에게 필수 시험임 (한국의 수능과 비슷)</p>
-                                </div>
-                                <Reason1 />
-                            </Grid.Column>
-                            <Grid.Column width={4} className='ImageGrid  Pic2'>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='ImageGrid Pic1'>
                                 <div className="ImgDiv">
                                 </div>
                             </Grid.Column>
-                            <Grid.Column width={4} className='TextGrid'>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='TextGrid'>
                                 <div className='TextDiv'>
                                     <p> 미국 대학입학 희망하는 학생들에게 필수 시험임 (한국의 수능과 비슷)</p>
+                                    <Reason1 />
                                 </div>
-                                <Reason2 />
                             </Grid.Column>
-                            <Grid.Column width={4} className='ImageGrid1'>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='ImageGrid  Pic2'>
+                                <div className="ImgDiv">
+                                </div>
+                            </Grid.Column>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='TextGrid'>
+                                <div className='TextDiv'>
+                                    <p> 미국 대학입학 희망하는 학생들에게 필수 시험임 (한국의 수능과 비슷)</p>
+                                    <Reason2 />
+                                </div>
+                            </Grid.Column>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='ImageGrid1'>
                                 <div className="ImgDiv">
                                     <p> 미국 대학입학 희망하는 학생들에게 필수 시험임 (한국의 수능과 비슷)</p>
+                                    <Reason3 />
                                 </div>
-                                <Reason3 />
                             </Grid.Column>
-                            <Grid.Column width={4} className='TextGrid1  Pic3'>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='TextGrid1  Pic3'>
                                 <div className='TextDiv'>
                                 </div>
                             </Grid.Column>
-                            <Grid.Column width={4} className='ImageGrid1'>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='ImageGrid1'>
                                 <div className="ImgDiv">
                                     <p> 미국 대학입학 희망하는 학생들에게 필수 시험임 (한국의 수능과 비슷)</p>
+                                    <Reason4 />
                                 </div>
-                                <Reason4 />
                             </Grid.Column>
-                            <Grid.Column width={4} className='TextGrid1  Pic4'>
+                            <Grid.Column computer={4} mobile={8} tablet={4} className='TextGrid1  Pic4'>
                                 <div className='TextDiv'>
                                 </div>
                             </Grid.Column>

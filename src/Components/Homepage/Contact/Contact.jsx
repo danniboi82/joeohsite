@@ -12,14 +12,14 @@ import {
 import Map from './GMap/GMap';
 import Kaist from '../../../Images/kaist.jpg';
 import Ucsc from '../../../Images/Ucsc.png';
-
+import './Contact.css';
 //Google Maps api key : AIzaSyB4Gae_gW6rhT4AKAxkr13R-4uolR1kZD8
 
 
 class Intro extends Component {
     render() {
         return (
-            <div>
+            <div className='ContactDiv'>
                 <Segment style={{ padding: '8em 0em' }} vertical>
 
                     <h1>Intro/Experience </h1>
@@ -46,9 +46,9 @@ class Intro extends Component {
                         </Grid.Row>
                     </Grid>
 
-                    <Container>
+                    <div className='MapDiv'>
                         <Map />
-                    </Container>
+                    </div>
                 </Segment>
             </div>
         )
