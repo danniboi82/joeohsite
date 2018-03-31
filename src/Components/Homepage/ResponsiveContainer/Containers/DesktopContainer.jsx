@@ -49,7 +49,8 @@ class DesktopContainer extends Component {
                 pointing={!fixed}
                 borderless
                 secondary={!fixed}
-                size='large'>
+                size='large'
+              >
                 <Container>
                   <Menu.Item>
                     <h1>STUDYVILLE</h1>
@@ -57,31 +58,35 @@ class DesktopContainer extends Component {
                   <Menu.Item position='right'>
                     <Menu.Item
                       name='top'
+                      href='#Top'
                       active={activeItem === 'top'}
                       onClick={this.handleItemClick}>
                       <Icon name='home' style={{ position: 'relative', bottom: '2px' }} />
-                      <a href='#Top'>홈</a>
+                      홈
                     </Menu.Item>
                     <Menu.Item
+                      href='#About'
                       name='about'
                       active={activeItem === 'about'}
                       onClick={this.handleItemClick} >
                       <Icon name='info circle' size='small' />
-                      <a href='#About'>StudyVille?</a>
+                      StudyVille?
                     </Menu.Item>
                     <Menu.Item
+                      href='#Curriculum'
                       name='curriculum'
                       active={activeItem === 'curriculum'}
                       onClick={this.handleItemClick}>
                       <Icon name='book' size='small' />
-                      <a href='#Curriculum'>커리큘럼</a>
+                      커리큘럼
                     </Menu.Item>
                     <Menu.Item
+                      href='#Contact'
                       name='contact'
                       active={activeItem === 'contact'}
                       onClick={this.handleItemClick} >
                       <Icon name='user outline' size='small' />
-                      <a href='#Contact'>소계/이력/연락</a>
+                      소계/이력/연락
                     </Menu.Item>
                   </Menu.Item>
                 </Container>

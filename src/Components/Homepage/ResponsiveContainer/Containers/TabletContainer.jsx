@@ -15,10 +15,10 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 import MobileHeading from '../Heading/MobileHeading';
-import './MobileContainer.css'
+import './TabletContainer.css'
 import BG1 from '../../../../Images/background3.jpg';
 
-class MobileContainer extends Component {
+class TabletContainer extends Component {
   state = {}
 
   handlePusherClick = () => {
@@ -37,7 +37,7 @@ class MobileContainer extends Component {
     const { activeItem } = this.state
 
     return (
-      <Responsive {...Responsive.onlyMobile}>
+      <Responsive {...Responsive.onlyTablet}>
         <Sidebar.Pushable>
           <Sidebar as={Menu} animation='uncover' inverted vertical visible={sidebarOpened}>
             <Menu.Item>
@@ -106,4 +106,4 @@ class MobileContainer extends Component {
 
 
 
-export default MobileContainer;
+export default TabletContainer;

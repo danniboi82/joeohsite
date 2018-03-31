@@ -1,6 +1,21 @@
+.HomeDiv{
+    text-align: center;
+}
+
 .Intro{
     margin: 20px auto;
 }
+
+@media only screen and (max-width: 768px){
+    .Intro :nth-child(1) {order : 1;}
+    .Intro :nth-child(2) {order : 2;}
+    .Intro :nth-child(3) {order : 4;}
+    .Intro :nth-child(4) {order : 3;}
+    .Intro :nth-child(5) {order : 6;}
+    .Intro :nth-child(6) {order : 5;}
+    .Intro :nth-child(7) {order : 7;}
+    .Intro :nth-child(8) {order : 8;}
+    }
 
 .ImageGrid{
     height: 400px;
