@@ -47,7 +47,7 @@ class MobileContainer extends Component {
               href='#Top'
               name='top'
               active={activeItem === 'top'}
-              onClick={this.handleItemClick}>
+              onClick={this.handlePusherClick}>
               <Icon name='home' />
               홈
             </Menu.Item>
@@ -55,7 +55,7 @@ class MobileContainer extends Component {
               href='#About'
               name='about'
               active={activeItem === 'about'}
-              onClick={this.handleItemClick} >
+              onClick={this.handlePusherClick} >
               <Icon name='info circle' size='small' />
               StudyVille?
             </Menu.Item>
@@ -63,7 +63,7 @@ class MobileContainer extends Component {
               href='#Curriculum'
               name='curriculum'
               active={activeItem === 'curriculum'}
-              onClick={this.handleItemClick}>
+              onClick={this.handlePusherClick}>
               <Icon name='book' size='small' />
               커리큘럼
             </Menu.Item>
@@ -71,7 +71,7 @@ class MobileContainer extends Component {
               href='#Contact'
               name='contact'
               active={activeItem === 'contact'}
-              onClick={this.handleItemClick} >
+              onClick={this.handlePusherClick} >
               <Icon name='user outline' size='small' />
               소계/이력/연락
             </Menu.Item>
